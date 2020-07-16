@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [eCommerceV1]">
+  <listeners>
+    <listener class-name="com.eCommerce.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="eCommerce Site(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.eCommerce.testCases.TC_Login_01">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.eCommerce.testCases.TC_Login_01 -->
+    </classes>
+  </test> <!-- eCommerce Site(failed) -->
+</suite> <!-- Failed suite [eCommerceV1] -->

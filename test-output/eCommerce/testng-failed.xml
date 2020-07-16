@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [eCommerce]">
+  <test thread-count="5" name="eCommerce Site(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.eCommerce.testCases.TC_Login_01">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.eCommerce.testCases.TC_Login_01 -->
+    </classes>
+  </test> <!-- eCommerce Site(failed) -->
+</suite> <!-- Failed suite [eCommerce] -->

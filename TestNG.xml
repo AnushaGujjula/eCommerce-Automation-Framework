@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="eCommerce Automation Suite">
+
+    <listeners>
+		<listener class-name="com.eCommerce.utilities.TestReporting" />
+	</listeners>
+	
+	<test name="eCommerce Site">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.eCommerce.testCases.TC_Departments_Laptops_01" /> 
+			<class name="com.eCommerce.testCases.TC_Departments_CellPhones_02" /> 
+			<class name="com.eCommerce.testCases.TC_Login_03" /> 
+		</classes>
+	</test>
+
+</suite>
