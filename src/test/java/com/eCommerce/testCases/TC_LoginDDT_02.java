@@ -47,18 +47,18 @@ public class TC_LoginDDT_02 extends BaseClass
 //
 // //Method to check if alert is active
 // 
-//    public boolean isAlertPresent() 
-//  {
-//	 try 
-//	 {
-//		 driver.switchTo().alert();//switches to handle the alert 
-//		 return true;
-//	 }
-//	 catch(NoAlertPresentException e)
-//	 {
-//		return false;
-//	}
-//  }
+    public boolean isAlertPresent() 
+  {
+	 try 
+	 {
+		 driver.switchTo().alert();//switches to handle the alert 
+		 return true;
+	 }
+	 catch(NoAlertPresentException e)
+	 {
+		return false;
+	}
+  }
 //  
 // //Read data from excel and store data in 2D array
 //    
