@@ -10,9 +10,11 @@
 	<test name="eCommerce Site">
 		<parameter name="browser" value="chrome" />
 		<classes>
+			
 			<class name="com.eCommerce.testCases.TC_Departments_Laptops_01" /> 
 			<class name="com.eCommerce.testCases.TC_Departments_CellPhones_02" /> 
-			<class name="com.eCommerce.testCases.TC_Login_03" /> 
+			<class name="com.eCommerce.testCases.TC_Login_03" />	
+			<class name="com.eCommerce.testCases.TC_SearchItemsDDT_04" /> 
 		</classes>
 	</test>
 

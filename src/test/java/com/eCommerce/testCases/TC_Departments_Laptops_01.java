@@ -8,16 +8,16 @@ import junit.framework.Assert;
 public class TC_Departments_Laptops_01 extends BaseClass
 {
 	@Test
-	public void login() throws IOException
+	public void departments() throws IOException
 	{
         // Create a Departments Object to call its methods.
-  		DepartmentsPage dp =new DepartmentsPage(driver);  
+  		DepartmentsPage departmentsPage =new DepartmentsPage(driver);  
   		
-  		dp.clickMenu();
+  		departmentsPage.clickMenu();
   		logger.info("Clicked on menu tab on top left");
-		dp.clickElectronics();
+  		departmentsPage.clickElectronics();
 		logger.info("Selected Electronics & Office");
-		dp.clickLaptops();
+		departmentsPage.clickLaptops();
 		logger.info("Clicked on laptops");				
 	
 		//verify the title of page to ensure the click on laptops landed on laptops page.

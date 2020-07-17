@@ -11,27 +11,27 @@ public class TC_Departments_CellPhones_02 extends BaseClass
 	public void login() throws IOException
 	{
         // Create a Departments Object to call its methods.
-  		DepartmentsPage dp =new DepartmentsPage(driver);  
+  		DepartmentsPage departmentsPage =new DepartmentsPage(driver);  
   		
-  		dp.clickMenu();
+  		departmentsPage.clickMenu();
   		logger.info("Clicked on menu tab on top left");
-		dp.clickElectronics();
+  		departmentsPage.clickElectronics();
 		logger.info("Selected Electronics & Office");
-		dp.clickCellPhones();
+		departmentsPage.clickCellPhones();
 		logger.info("Clicked on cell phones");				
 	
 		//verify the title of page to ensure the click on cell phones landed on cell phones page.
 		if(driver.getTitle().equals("Cell Phones, Unlocked & No-Contract Phones, Prepaid Phones | Walmart.com - Walmart.com"))
 		{
 			Assert.assertTrue(true);
-			logger.info("laptop department page load succesful");
+			logger.info("cellphone department page load succesful");
 			
 		}
 		else
 		{
-			captureScreen(driver,"laptopDepartment");
+			captureScreen(driver,"cellphoneDepartment");
 			Assert.assertTrue(false);
-			logger.info("laptop department page load failed");
+			logger.info("cellphone department page load failed");
 		}
  	}
 }

@@ -47,7 +47,7 @@ public class ExcelUtility {
 		return cellcount;
 	}
 	
-	public static String getCellData(String xlfile,String xlsheet,int rownum,int colnum) throws IOException
+	public static String getCellData1(String xlfile,String xlsheet,int rownum,int colnum) throws IOException
 	{
 		fi=new FileInputStream(xlfile);
 		wb=new XSSFWorkbook(fi);

@@ -22,7 +22,7 @@ public class LoginPage {
 	WebElement account;
 	
 	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/a[1]/div[1]/span[1]/div[1]")
-	WebElement clicksignin;
+	WebElement clickSignin;
 	
 	@FindBy(id = "email")
 	WebElement txtUserName;
@@ -42,7 +42,7 @@ public class LoginPage {
 	}
 	public void clickSignIn()
 	{
-		clicksignin.click();
+		clickSignin.click();
 	}	
 	
 	public void setUserName(String uname)
@@ -60,7 +60,8 @@ public class LoginPage {
 		signin.click();
 	}	
 	
-	public String robotLogin() {
+	public String robotLogin() 
+	{
 		return robotLogin.getText();
 	}	
 }

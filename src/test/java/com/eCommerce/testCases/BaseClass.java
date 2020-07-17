@@ -3,9 +3,7 @@ package com.eCommerce.testCases;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
@@ -16,11 +14,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
-
 import com.eCommerce.utilities.ReadConfig;
-import com.eCommerce.utilities.ExcelUtility;
 
 /**
  * Base class for all the test cases which consists of setup and all other common functions.
@@ -81,36 +76,7 @@ public class BaseClass {
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		FileUtils.copyFile(source, target);
-		logger.info("");
 		System.out.println("Screenshot taken");
 	}
 	
-	@DataProvider(name="LoginData")
-	String [][] getData() throws IOException
-	{
-		String path=System.getProperty("user.dir")+"/src/test/java/com/inetbanking/testData/LoginData.xlsx";
-		
-		int rownum=ExcelUtility.getRowCount(path, "Sheet1");
-		int colcount=ExcelUtility.getCellCount(path,"Sheet1",1);
-		
-		String logindata[][]=new String[rownum][colcount];
-		
-		for(int i=1;i<=rownum;i++)
-		{
-			for(int j=0;j<colcount;j++)
-			{
-				logindata[i-1][j]=ExcelUtility.getCellData(path,"Sheet1", i,j);//1 0
-			}	
-		}
-	return logindata;
-	}
-	
-	public String getRandomString()
-	{
-		return RandomStringUtils.randomAlphabetic(8);
-	}
-	
-	public static String getRandomNumber() {
-		 return RandomStringUtils.randomNumeric(4);
-	}
 }

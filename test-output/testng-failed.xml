@@ -7,13 +7,13 @@
   <test thread-count="5" name="eCommerce Site(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.eCommerce.testCases.TC_Login_03">
+      <class name="com.eCommerce.testCases.TC_SearchItemsDDT_04">
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="login"/>
+          <include name="searchDDT" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- com.eCommerce.testCases.TC_Login_03 -->
+      </class> <!-- com.eCommerce.testCases.TC_SearchItemsDDT_04 -->
     </classes>
   </test> <!-- eCommerce Site(failed) -->
 </suite> <!-- Failed suite [eCommerce Automation Suite] -->

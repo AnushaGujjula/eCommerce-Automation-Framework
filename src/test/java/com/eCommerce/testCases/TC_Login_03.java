@@ -2,9 +2,6 @@ package com.eCommerce.testCases;
 
 import java.io.IOException;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import com.eCommerce.pageobjects.LoginPage;

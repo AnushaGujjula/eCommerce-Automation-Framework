@@ -22,7 +22,7 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
-import com.aventstack.extentreports.reporter.configuration.Theme;
+//import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class TestReporting extends TestListenerAdapter
 {
@@ -47,7 +47,7 @@ public class TestReporting extends TestListenerAdapter
 		htmlReporter.config().setDocumentTitle("eCommerce Test Project");
 		htmlReporter.config().setReportName("Regression Test Automation Report"); 
 		htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
-		htmlReporter.config().setTheme(Theme.DARK);
+		
 	}
 	
 	public void onTestSuccess(ITestResult tr)
@@ -80,7 +80,7 @@ public class TestReporting extends TestListenerAdapter
 	public void onTestSkipped(ITestResult tr)
 	{
 		logger=extent.createTest(tr.getName());
-		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.ORANGE));
+		logger.log(Status.SKIP,MarkupHelper.createLabel(tr.getName(),ExtentColor.YELLOW));
 	}
 	
 	public void onFinish(ITestContext testContext)
