@@ -8,7 +8,7 @@ import junit.framework.Assert;
 public class TC_Departments_CellPhones_02 extends BaseClass
 {
 	@Test
-	public void login() throws IOException
+	public void login() throws IOException, InterruptedException
 	{
         // Create a Departments Object to call its methods.
   		DepartmentsPage departmentsPage =new DepartmentsPage(driver);  
@@ -18,8 +18,10 @@ public class TC_Departments_CellPhones_02 extends BaseClass
   		departmentsPage.clickElectronics();
 		logger.info("Selected Electronics & Office");
 		departmentsPage.clickCellPhones();
-		logger.info("Clicked on cell phones");				
-	
+		logger.info("Clicked on cell phones");	
+		
+		Thread.sleep(5000);	
+		
 		//verify the title of page to ensure the click on cell phones landed on cell phones page.
 		if(driver.getTitle().equals("Cell Phones, Unlocked & No-Contract Phones, Prepaid Phones | Walmart.com - Walmart.com"))
 		{

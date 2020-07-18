@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import org.apache.commons.mail.EmailException;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -29,11 +30,12 @@ public class TestReporting extends TestListenerAdapter
 	public ExtentHtmlReporter htmlReporter;
 	public ExtentReports extent;
 	public ExtentTest logger;
+	public String reportName;
 	
 	public void onStart(ITestContext testContext)
 	{
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-		String reportName="Test-Report-"+timeStamp+".html";
+		 reportName="Test-Report-"+timeStamp+".html";
 		
 		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+ "/test-output/"+reportName);
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+ "/extent-config.xml");
@@ -86,5 +88,12 @@ public class TestReporting extends TestListenerAdapter
 	public void onFinish(ITestContext testContext)
 	{
 		extent.flush();
+		SendReportEmail sendReportEmail = new SendReportEmail(reportName);
+		try {
+			sendReportEmail.sendMail();
+		} catch (EmailException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
