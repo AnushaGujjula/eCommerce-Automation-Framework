@@ -1,6 +1,8 @@
 package com.eCommerce.testCases;
 
 import java.io.IOException;
+
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 import com.eCommerce.pageobjects.DepartmentsPage;
 import junit.framework.Assert;
@@ -19,7 +21,10 @@ public class TC_Departments_CellPhones_02 extends BaseClass
 		logger.info("Selected Electronics & Office");
 		departmentsPage.clickCellPhones();
 		logger.info("Clicked on cell phones");	
+		// Scrolling the web page by pixel
 		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,1300)","");
 		Thread.sleep(5000);	
 		
 		//verify the title of page to ensure the click on cell phones landed on cell phones page.

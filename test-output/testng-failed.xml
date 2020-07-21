@@ -7,13 +7,13 @@
   <test thread-count="5" name="eCommerce Site(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.eCommerce.testCases.TC_Departments_Laptops_01">
+      <class name="com.eCommerce.testCases.TC_Departments_CellPhones_02">
         <methods>
+          <include name="login"/>
           <include name="setup"/>
-          <include name="departments"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.eCommerce.testCases.TC_Departments_Laptops_01 -->
+      </class> <!-- com.eCommerce.testCases.TC_Departments_CellPhones_02 -->
     </classes>
   </test> <!-- eCommerce Site(failed) -->
 </suite> <!-- Failed suite [eCommerce Automation Suite] -->
