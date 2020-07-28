@@ -441,3 +441,222 @@
 2020-07-20 14:09:29,539 [main] INFO eCommerce - Clicked on menu tab on top left
 2020-07-20 14:09:29,971 [main] INFO eCommerce - Selected Electronics & Office
 2020-07-20 14:09:34,224 [main] INFO eCommerce - Clicked on cell phones
+2020-07-27 14:54:14,175 [main] INFO eCommerce - URL is opened
+2020-07-27 14:54:55,367 [main] INFO eCommerce - URL is opened
+2020-07-27 14:55:35,741 [main] INFO eCommerce - URL is opened
+2020-07-27 14:56:15,915 [main] INFO eCommerce - URL is opened
+2020-07-27 14:56:20,977 [main] INFO eCommerce - Entered books search
+2020-07-27 14:56:51,140 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 14:57:21,283 [main] INFO eCommerce - Entered laptops search
+2020-07-27 14:57:51,395 [main] INFO eCommerce - Entered tv search
+2020-07-27 14:58:21,571 [main] INFO eCommerce - Entered plants search
+2020-07-27 15:13:39,823 [main] INFO eCommerce - URL is opened
+2020-07-27 15:14:20,382 [main] INFO eCommerce - URL is opened
+2020-07-27 15:15:00,149 [main] INFO eCommerce - URL is opened
+2020-07-27 15:15:40,133 [main] INFO eCommerce - URL is opened
+2020-07-27 15:15:41,392 [main] INFO eCommerce - Entered books search
+2020-07-27 15:16:11,538 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 15:16:41,632 [main] INFO eCommerce - Entered laptops search
+2020-07-27 15:17:11,713 [main] INFO eCommerce - Entered tv search
+2020-07-27 15:17:41,825 [main] INFO eCommerce - Entered plants search
+2020-07-27 15:24:31,572 [main] INFO eCommerce - URL is opened
+2020-07-27 15:25:18,793 [main] INFO eCommerce - URL is opened
+2020-07-27 15:26:03,589 [main] INFO eCommerce - URL is opened
+2020-07-27 15:26:55,684 [main] INFO eCommerce - URL is opened
+2020-07-27 15:26:57,177 [main] INFO eCommerce - Entered books search
+2020-07-27 15:27:27,243 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 15:27:57,315 [main] INFO eCommerce - Entered laptops search
+2020-07-27 15:28:27,365 [main] INFO eCommerce - Entered tv search
+2020-07-27 15:28:57,429 [main] INFO eCommerce - Entered plants search
+2020-07-27 15:31:39,649 [main] INFO eCommerce - URL is opened
+2020-07-27 15:32:55,409 [main] INFO eCommerce - URL is opened
+2020-07-27 15:47:40,122 [main] INFO eCommerce - URL is opened
+2020-07-27 16:13:19,115 [main] INFO eCommerce - URL is opened
+2020-07-27 16:13:19,751 [main] INFO eCommerce - Clicked on menu tab on top left
+2020-07-27 16:13:20,161 [main] INFO eCommerce - Selected Electronics & Office
+2020-07-27 16:13:21,066 [main] INFO eCommerce - Clicked on laptops
+2020-07-27 16:13:26,165 [main] INFO eCommerce - laptop department page load succesful
+2020-07-27 16:19:24,884 [main] INFO eCommerce - URL is opened
+2020-07-27 16:19:25,122 [main] INFO eCommerce - Clicked on menu tab on top left
+2020-07-27 16:19:25,865 [main] INFO eCommerce - Selected Electronics & Office
+2020-07-27 16:19:26,760 [main] INFO eCommerce - Clicked on laptops
+2020-07-27 16:19:31,833 [main] INFO eCommerce - laptop department page load succesful
+2020-07-27 16:20:13,433 [main] INFO eCommerce - URL is opened
+2020-07-27 16:20:13,605 [main] INFO eCommerce - Clicked on menu tab on top left
+2020-07-27 16:20:13,838 [main] INFO eCommerce - Selected Electronics & Office
+2020-07-27 16:20:17,890 [main] INFO eCommerce - Clicked on laptops
+2020-07-27 16:20:22,968 [main] INFO eCommerce - laptop department page load succesful
+2020-07-27 16:21:16,967 [main] INFO eCommerce - URL is opened
+2020-07-27 16:21:17,191 [main] INFO eCommerce - Clicked on menu tab on top left
+2020-07-27 16:21:17,298 [main] INFO eCommerce - Selected Electronics & Office
+2020-07-27 16:21:21,024 [main] INFO eCommerce - Clicked on laptops
+2020-07-27 16:21:27,052 [main] INFO eCommerce - laptop department page load succesful
+2020-07-27 16:21:36,736 [main] INFO eCommerce - URL is opened
+2020-07-27 16:21:37,072 [main] INFO eCommerce - Clicked on menu tab on top left
+2020-07-27 16:21:37,612 [main] INFO eCommerce - Selected Electronics & Office
+2020-07-27 16:21:38,675 [main] INFO eCommerce - Clicked on cell phones
+2020-07-27 16:21:44,035 [main] INFO eCommerce - cellphone department page load succesful
+2020-07-27 16:21:53,621 [main] INFO eCommerce - URL is opened
+2020-07-27 16:21:53,775 [main] INFO eCommerce - Clicked on account tab
+2020-07-27 16:21:57,083 [main] INFO eCommerce - On account tab, clicked on sign-in
+2020-07-27 16:21:57,298 [main] INFO eCommerce - Entered Username
+2020-07-27 16:21:57,385 [main] INFO eCommerce - Entered Password
+2020-07-27 16:21:57,470 [main] INFO eCommerce - Clicked sign-in
+2020-07-27 16:22:07,339 [main] INFO eCommerce - URL is opened
+2020-07-27 16:22:13,056 [main] INFO eCommerce - Entered books search
+2020-07-27 16:22:13,124 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:22:14,145 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 16:22:14,200 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:22:15,149 [main] INFO eCommerce - Entered laptops search
+2020-07-27 16:22:15,193 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:22:16,146 [main] INFO eCommerce - Entered tv search
+2020-07-27 16:22:16,207 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:22:16,891 [main] INFO eCommerce - Entered plants search
+2020-07-27 16:22:16,931 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:24:44,201 [main] INFO eCommerce - URL is opened
+2020-07-27 16:24:45,650 [main] INFO eCommerce - Entered books search
+2020-07-27 16:24:45,711 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:24:46,635 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 16:24:46,680 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:24:47,438 [main] INFO eCommerce - Entered laptops search
+2020-07-27 16:24:47,481 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:24:48,263 [main] INFO eCommerce - Entered tv search
+2020-07-27 16:24:48,305 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:24:49,051 [main] INFO eCommerce - Entered plants search
+2020-07-27 16:24:49,094 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:30:32,688 [main] INFO eCommerce - URL is opened
+2020-07-27 16:30:34,202 [main] INFO eCommerce - Entered books search
+2020-07-27 16:30:35,200 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:30:49,018 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 16:30:49,326 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:30:53,650 [main] INFO eCommerce - Entered laptops search
+2020-07-27 16:30:59,443 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:30:59,523 [main] INFO eCommerce - laptops search list successful
+2020-07-27 16:30:59,634 [main] INFO eCommerce - Entered tv search
+2020-07-27 16:31:04,650 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:31:04,744 [main] INFO eCommerce - tv search list successful
+2020-07-27 16:31:04,886 [main] INFO eCommerce - Entered plants search
+2020-07-27 16:31:09,507 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:31:09,824 [main] INFO eCommerce - plants search list successful
+2020-07-27 16:31:49,399 [main] INFO eCommerce - URL is opened
+2020-07-27 16:31:50,833 [main] INFO eCommerce - Entered books search
+2020-07-27 16:31:55,881 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:31:56,101 [main] INFO eCommerce - books search list successful
+2020-07-27 16:31:56,480 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 16:31:56,773 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:31:58,587 [main] INFO eCommerce - Entered laptops search
+2020-07-27 16:31:59,509 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:32:03,115 [main] INFO eCommerce - laptops search list successful
+2020-07-27 16:32:03,436 [main] INFO eCommerce - Entered tv search
+2020-07-27 16:32:04,479 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:32:04,753 [main] INFO eCommerce - tv search list successful
+2020-07-27 16:32:07,981 [main] INFO eCommerce - Entered plants search
+2020-07-27 16:32:09,344 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:32:39,309 [main] INFO eCommerce - URL is opened
+2020-07-27 16:32:40,774 [main] INFO eCommerce - Entered books search
+2020-07-27 16:32:45,080 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:32:45,382 [main] INFO eCommerce - books search list successful
+2020-07-27 16:32:45,684 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 16:32:46,950 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:32:47,611 [main] INFO eCommerce - cellphones search list successful
+2020-07-27 16:32:50,578 [main] INFO eCommerce - Entered laptops search
+2020-07-27 16:32:55,182 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:32:56,418 [main] INFO eCommerce - Entered tv search
+2020-07-27 16:33:00,561 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:33:01,018 [main] INFO eCommerce - tv search list successful
+2020-07-27 16:33:01,217 [main] INFO eCommerce - Entered plants search
+2020-07-27 16:33:05,624 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:33:06,002 [main] INFO eCommerce - plants search list successful
+2020-07-27 16:34:50,277 [main] INFO eCommerce - URL is opened
+2020-07-27 16:34:50,544 [main] INFO eCommerce - Clicked on menu tab on top left
+2020-07-27 16:34:50,897 [main] INFO eCommerce - Selected Electronics & Office
+2020-07-27 16:34:52,237 [main] INFO eCommerce - Clicked on laptops
+2020-07-27 16:34:58,307 [main] INFO eCommerce - laptop department page load succesful
+2020-07-27 16:35:07,027 [main] INFO eCommerce - URL is opened
+2020-07-27 16:35:07,203 [main] INFO eCommerce - Clicked on menu tab on top left
+2020-07-27 16:35:07,475 [main] INFO eCommerce - Selected Electronics & Office
+2020-07-27 16:35:11,427 [main] INFO eCommerce - Clicked on cell phones
+2020-07-27 16:35:16,458 [main] INFO eCommerce - cellphone department page load succesful
+2020-07-27 16:35:25,517 [main] INFO eCommerce - URL is opened
+2020-07-27 16:35:25,699 [main] INFO eCommerce - Clicked on account tab
+2020-07-27 16:35:25,963 [main] INFO eCommerce - On account tab, clicked on sign-in
+2020-07-27 16:35:27,537 [main] INFO eCommerce - Entered Username
+2020-07-27 16:35:27,833 [main] INFO eCommerce - Entered Password
+2020-07-27 16:35:27,982 [main] INFO eCommerce - Clicked sign-in
+2020-07-27 16:36:09,175 [main] INFO eCommerce - URL is opened
+2020-07-27 16:36:10,536 [main] INFO eCommerce - Entered books search
+2020-07-27 16:36:15,604 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:36:15,757 [main] INFO eCommerce - books search list successful
+2020-07-27 16:36:15,975 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 16:36:16,310 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:36:19,034 [main] INFO eCommerce - Entered laptops search
+2020-07-27 16:36:28,397 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:36:28,854 [main] INFO eCommerce - laptops search list successful
+2020-07-27 16:36:29,006 [main] INFO eCommerce - Entered tv search
+2020-07-27 16:36:30,868 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:36:34,604 [main] INFO eCommerce - tv search list successful
+2020-07-27 16:36:35,251 [main] INFO eCommerce - Entered plants search
+2020-07-27 16:36:37,389 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:36:41,291 [main] INFO eCommerce - plants search list successful
+2020-07-27 16:39:50,088 [main] INFO eCommerce - URL is opened
+2020-07-27 16:39:51,319 [main] INFO eCommerce - Entered books search
+2020-07-27 16:39:55,530 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:39:56,158 [main] INFO eCommerce - books search list successful
+2020-07-27 16:39:56,563 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 16:39:56,839 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:40:01,617 [main] INFO eCommerce - Entered laptops search
+2020-07-27 16:40:05,870 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:40:06,774 [main] INFO eCommerce - Entered tv search
+2020-07-27 16:40:11,246 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:40:11,532 [main] INFO eCommerce - tv search list successful
+2020-07-27 16:40:11,734 [main] INFO eCommerce - Entered plants search
+2020-07-27 16:40:12,767 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:40:15,963 [main] INFO eCommerce - plants search list successful
+2020-07-27 16:43:33,414 [main] INFO eCommerce - URL is opened
+2020-07-27 16:43:34,740 [main] INFO eCommerce - Entered books search
+2020-07-27 16:43:38,893 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:43:38,979 [main] INFO eCommerce - bookssearch list successful
+2020-07-27 16:43:39,189 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 16:43:40,978 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:43:41,409 [main] INFO eCommerce - cellphonessearch list successful
+2020-07-27 16:43:41,643 [main] INFO eCommerce - Entered laptops search
+2020-07-27 16:43:42,738 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:43:46,482 [main] INFO eCommerce - laptopssearch list successful
+2020-07-27 16:43:46,886 [main] INFO eCommerce - Entered tv search
+2020-07-27 16:43:51,368 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:43:51,613 [main] INFO eCommerce - tvsearch list successful
+2020-07-27 16:43:51,744 [main] INFO eCommerce - Entered plants search
+2020-07-27 16:43:52,789 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:43:55,611 [main] INFO eCommerce - plantssearch list successful
+2020-07-27 16:46:29,760 [main] INFO eCommerce - URL is opened
+2020-07-27 16:46:29,916 [main] INFO eCommerce - Clicked on menu tab on top left
+2020-07-27 16:46:30,314 [main] INFO eCommerce - Selected Electronics & Office
+2020-07-27 16:46:33,731 [main] INFO eCommerce - Clicked on laptops
+2020-07-27 16:46:39,794 [main] INFO eCommerce - laptop department page load succesful
+2020-07-27 16:46:49,224 [main] INFO eCommerce - URL is opened
+2020-07-27 16:46:49,361 [main] INFO eCommerce - Clicked on menu tab on top left
+2020-07-27 16:46:49,473 [main] INFO eCommerce - Selected Electronics & Office
+2020-07-27 16:46:52,900 [main] INFO eCommerce - Clicked on cell phones
+2020-07-27 16:46:57,932 [main] INFO eCommerce - cellphone department page load succesful
+2020-07-27 16:47:07,952 [main] INFO eCommerce - URL is opened
+2020-07-27 16:47:08,098 [main] INFO eCommerce - Clicked on account tab
+2020-07-27 16:47:08,444 [main] INFO eCommerce - On account tab, clicked on sign-in
+2020-07-27 16:47:08,788 [main] INFO eCommerce - Entered Username
+2020-07-27 16:47:09,640 [main] INFO eCommerce - Entered Password
+2020-07-27 16:47:09,713 [main] INFO eCommerce - Clicked sign-in
+2020-07-27 16:47:21,054 [main] INFO eCommerce - URL is opened
+2020-07-27 16:47:22,333 [main] INFO eCommerce - Entered books search
+2020-07-27 16:47:23,668 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:47:26,855 [main] INFO eCommerce - bookssearch list successful
+2020-07-27 16:47:27,079 [main] INFO eCommerce - Entered cellphones search
+2020-07-27 16:47:27,838 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:47:32,716 [main] INFO eCommerce - cellphonessearch list successful
+2020-07-27 16:47:33,199 [main] INFO eCommerce - Entered laptops search
+2020-07-27 16:47:38,190 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:47:38,322 [main] INFO eCommerce - laptopssearch list successful
+2020-07-27 16:47:38,423 [main] INFO eCommerce - Entered tv search
+2020-07-27 16:47:40,074 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:47:40,290 [main] INFO eCommerce - tvsearch list successful
+2020-07-27 16:47:42,821 [main] INFO eCommerce - Entered plants search
+2020-07-27 16:47:47,526 [main] INFO eCommerce - Clicked on search Button
+2020-07-27 16:47:47,933 [main] INFO eCommerce - plantssearch list successful

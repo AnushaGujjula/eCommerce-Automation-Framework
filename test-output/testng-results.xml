@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="eCommerce Automation Suite" duration-ms="32571" started-at="2020-07-20T14:09:19 CST" finished-at="2020-07-20T14:09:52 CST">
+  <suite name="eCommerce Automation Suite" duration-ms="89355" started-at="2020-07-27T16:46:19 CST" finished-at="2020-07-27T16:47:48 CST">
     <groups>
     </groups>
-    <test name="eCommerce Site" duration-ms="32571" started-at="2020-07-20T14:09:19 CST" finished-at="2020-07-20T14:09:52 CST">
-      <class name="com.eCommerce.testCases.TC_Departments_CellPhones_02">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_Departments_CellPhones_02@e320068]" name="setup" is-config="true" duration-ms="9456" started-at="2020-07-20T14:09:19 CST" finished-at="2020-07-20T14:09:29 CST">
+    <test name="eCommerce Site" duration-ms="89355" started-at="2020-07-27T16:46:19 CST" finished-at="2020-07-27T16:47:48 CST">
+      <class name="com.eCommerce.testCases.TC_Departments_Laptops_01">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_Departments_Laptops_01@458c1321]" name="setup" is-config="true" duration-ms="10171" started-at="2020-07-27T16:46:19 CST" finished-at="2020-07-27T16:46:29 CST">
           <params>
             <param index="0">
               <value>
@@ -18,38 +18,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="login()[pri:0, instance:com.eCommerce.testCases.TC_Departments_CellPhones_02@e320068]" name="login" duration-ms="22246" started-at="2020-07-20T14:09:29 CST" finished-at="2020-07-20T14:09:51 CST">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[chrome not reachable
-  (Session info: chrome=84.0.4147.89)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-CGO60B0O', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:28998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c3d375c9bae0c08d4f391e88266003b7]]>
-            </message>
+        <test-method status="PASS" signature="departments()[pri:0, instance:com.eCommerce.testCases.TC_Departments_Laptops_01@458c1321]" name="departments" duration-ms="10016" started-at="2020-07-27T16:46:29 CST" finished-at="2020-07-27T16:46:39 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- departments -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eCommerce.testCases.TC_Departments_Laptops_01@458c1321]" name="tearDown" is-config="true" duration-ms="834" started-at="2020-07-27T16:46:39 CST" finished-at="2020-07-27T16:46:40 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommerce.testCases.TC_Departments_Laptops_01 -->
+      <class name="com.eCommerce.testCases.TC_Login_03">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_Login_03@34cd072c]" name="setup" is-config="true" duration-ms="9210" started-at="2020-07-27T16:46:58 CST" finished-at="2020-07-27T16:47:07 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.eCommerce.testCases.TC_Login_03@34cd072c]" name="login" duration-ms="2368" started-at="2020-07-27T16:47:07 CST" finished-at="2020-07-27T16:47:10 CST">
+          <exception class="junit.framework.AssertionFailedError">
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=84.0.4147.89)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-CGO60B0O', ip: '192.168.1.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:28998}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c3d375c9bae0c08d4f391e88266003b7
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-at com.eCommerce.testCases.TC_Departments_CellPhones_02.login(TC_Departments_CellPhones_02.java:31)
+              <![CDATA[junit.framework.AssertionFailedError
+at junit.framework.Assert.fail(Assert.java:47)
+at junit.framework.Assert.assertTrue(Assert.java:20)
+at junit.framework.Assert.assertTrue(Assert.java:27)
+at com.eCommerce.testCases.TC_Login_03.login(TC_Login_03.java:34)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -80,15 +77,108 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- junit.framework.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eCommerce.testCases.TC_Departments_CellPhones_02@e320068]" name="tearDown" is-config="true" duration-ms="661" started-at="2020-07-20T14:09:51 CST" finished-at="2020-07-20T14:09:52 CST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eCommerce.testCases.TC_Login_03@34cd072c]" name="tearDown" is-config="true" duration-ms="904" started-at="2020-07-27T16:47:10 CST" finished-at="2020-07-27T16:47:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommerce.testCases.TC_Login_03 -->
+      <class name="com.eCommerce.testCases.TC_Departments_CellPhones_02">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_Departments_CellPhones_02@11438d26]" name="setup" is-config="true" duration-ms="8579" started-at="2020-07-27T16:46:40 CST" finished-at="2020-07-27T16:46:49 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.eCommerce.testCases.TC_Departments_CellPhones_02@11438d26]" name="login" duration-ms="8708" started-at="2020-07-27T16:46:49 CST" finished-at="2020-07-27T16:46:57 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eCommerce.testCases.TC_Departments_CellPhones_02@11438d26]" name="tearDown" is-config="true" duration-ms="808" started-at="2020-07-27T16:46:57 CST" finished-at="2020-07-27T16:46:58 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.eCommerce.testCases.TC_Departments_CellPhones_02 -->
+      <class name="com.eCommerce.testCases.TC_SearchItemsDDT_04">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_SearchItemsDDT_04@7a1ebcd8]" name="setup" is-config="true" duration-ms="9829" started-at="2020-07-27T16:47:11 CST" finished-at="2020-07-27T16:47:21 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchDDT(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_SearchItemsDDT_04@7a1ebcd8]" name="searchDDT" duration-ms="4646" started-at="2020-07-27T16:47:22 CST" data-provider="SearchTestData" finished-at="2020-07-27T16:47:26 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDDT -->
+        <test-method status="PASS" signature="searchDDT(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_SearchItemsDDT_04@7a1ebcd8]" name="searchDDT" duration-ms="5858" started-at="2020-07-27T16:47:26 CST" data-provider="SearchTestData" finished-at="2020-07-27T16:47:32 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cellphones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDDT -->
+        <test-method status="PASS" signature="searchDDT(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_SearchItemsDDT_04@7a1ebcd8]" name="searchDDT" duration-ms="5604" started-at="2020-07-27T16:47:32 CST" data-provider="SearchTestData" finished-at="2020-07-27T16:47:38 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptops]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDDT -->
+        <test-method status="PASS" signature="searchDDT(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_SearchItemsDDT_04@7a1ebcd8]" name="searchDDT" duration-ms="1967" started-at="2020-07-27T16:47:38 CST" data-provider="SearchTestData" finished-at="2020-07-27T16:47:40 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDDT -->
+        <test-method status="PASS" signature="searchDDT(java.lang.String)[pri:0, instance:com.eCommerce.testCases.TC_SearchItemsDDT_04@7a1ebcd8]" name="searchDDT" duration-ms="7641" started-at="2020-07-27T16:47:40 CST" data-provider="SearchTestData" finished-at="2020-07-27T16:47:47 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[plants]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eCommerce.testCases.TC_SearchItemsDDT_04@7a1ebcd8]" name="tearDown" is-config="true" duration-ms="849" started-at="2020-07-27T16:47:47 CST" finished-at="2020-07-27T16:47:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eCommerce.testCases.TC_SearchItemsDDT_04 -->
     </test> <!-- eCommerce Site -->
   </suite> <!-- eCommerce Automation Suite -->
 </testng-results>

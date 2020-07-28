@@ -24,7 +24,7 @@ public class TC_Departments_CellPhones_02 extends BaseClass
 		// Scrolling the web page by pixel
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,1300)","");
+        js.executeScript("window.scrollBy(0,200)","");
 		Thread.sleep(5000);	
 		
 		//verify the title of page to ensure the click on cell phones landed on cell phones page.

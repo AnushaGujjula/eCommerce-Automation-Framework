@@ -18,16 +18,16 @@ import org.openqa.selenium.support.PageFactory;
 		PageFactory.initElements(rdriver, this);
 	}
 
-   @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/button[1]/span[1]/img[1]")
+   @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/button[1]/span[1]/img[1]")
    WebElement menu;
 
-   @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[2]/button[3]")
+   @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[2]/div[1]/div[2]/div[3]/div[2]/button[3]")
    WebElement electronics;
   
-   @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[2]/a[1]/div[1]")
+   @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[3]/div[2]/div[2]/div[2]/a[1]/div[1]")
    WebElement laptops;
    
-   @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[3]/div[2]/div[1]/div[5]/div[1]/span[1]/a[1]")
+   @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[3]/div[2]/div[1]/div[5]/div[1]/span[1]/a[1]")
    WebElement cellPhones;
    
    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/button[1]/span[1]/span[1]/span[2]")

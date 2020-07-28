@@ -40,7 +40,7 @@ public class TC_SearchItemsDDT_04 extends BaseClass
 		if(driver.getTitle().equals(expectedPageTitle))
 		{
 			Assert.assertTrue(true);
-			logger.info(item + " search list successful");
+			logger.info(item + "search list successful");
 		}
 		else
 		{

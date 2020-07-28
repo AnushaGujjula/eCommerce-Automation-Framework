@@ -21,7 +21,7 @@ public class SearchItemsPage
 	 @FindBy(id="global-search-input")
 	 WebElement searchInput;
 	 
-	 @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/form[1]/button[3]/span[1]/img[1]")
+	 @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[3]/div[2]/div[1]/form[1]/button[3]/span[1]/img[1]")
 	 WebElement searchButton;
 	 
 	 public void clearSearch()

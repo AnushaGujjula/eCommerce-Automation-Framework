@@ -23,8 +23,8 @@ public class TC_Departments_Laptops_01 extends BaseClass
 		logger.info("Clicked on laptops");	
 		// Scrolling the web page by pixel
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,600)","");
-		Thread.sleep(5000);
+        js.executeScript("window.scrollBy(0,400)","");
+		Thread.sleep(6000);
 	
 		//verify the title of page to ensure the click on laptops landed on laptops page.
 		if(driver.getTitle().equals("Laptops - Walmart.com - Walmart.com"))

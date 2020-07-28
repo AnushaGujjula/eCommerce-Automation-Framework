@@ -18,10 +18,10 @@ public class LoginPage {
 		PageFactory.initElements(rdriver, this);
 	}
 	
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/button[1]/span[1]/span[1]/span[2]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[2]/div[1]/div[3]/div[2]/div[1]/div[2]/div[1]/button[1]/span[1]/span[1]/span[1]/img[1]")
 	WebElement account;
 	
-	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/a[1]/div[1]/span[1]/div[1]")
+	@FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/section[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/a[1]/div[1]/span[1]/div[1]")
 	WebElement clickSignin;
 	
 	@FindBy(id = "email")
