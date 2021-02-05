@@ -24,7 +24,7 @@ public class SendReportEmail {
 	  MultiPartEmail email = new MultiPartEmail();
 	  email.setHostName("smtp.gmail.com");
 	  email.setSmtpPort(465);
-	  email.setAuthenticator(new DefaultAuthenticator("anushagujjula18@gmail.com", "Sony@1801"));
+	  email.setAuthenticator(new DefaultAuthenticator("XXXX@gmail.com", "XXXX"));
 	  email.setSSLOnConnect(true);
 	  email.addTo("21.anu.kra@gmail.com", "Anu");
 	  email.setFrom("anushagujjula18@gmail.com", "Anusha Gujjula");
